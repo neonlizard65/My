@@ -10,6 +10,7 @@ app.get("/", (req, res) => {
 });
 app.get("/board", (req, res) => {
     res.render("board.ejs");
+    //Comment
 });
 
 app.listen(port, () => {
