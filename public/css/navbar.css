@@ -1,0 +1,55 @@
+.body {
+    background-color: rgb(107, 68, 61);
+    background-repeat: no-repeat;
+}
+
+.h-100 {
+    color: rgb(27, 27, 27);
+}
+.col {
+    display: grid;
+    padding: 50px;
+    padding-left: 30px;
+}
+
+.pag {
+    display: flex;
+    justify-content: center;
+}
+
+.heed {
+    width: 15%;
+    background-color: rgb(202, 161, 141);
+    margin-left: 70px;
+}
+
+.sec {
+    width: 70%;
+}
+
+.ki {
+    width: 15%;
+    background-color: rgb(202, 161, 141);
+    margin-right: 70px;
+}
+
+.bg-dark {
+    margin: 30px;
+}
+
+.fixed-bottom {
+    background-color: rgb(39, 28, 23);
+    color: rgb(228, 204, 188);
+    font-style: oblique;
+    font-weight: 200;
+}
+
+.btn-hoo {
+    background-color: rgb(107, 68, 61);
+    color: rgb(19, 21, 24);
+}
+
+.btn-hoo:hover {
+    background-color: rgb(27, 27, 27);
+    color: rgb(221, 204, 194);
+}
