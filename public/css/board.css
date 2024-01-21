@@ -1,0 +1,40 @@
+#board {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+#board:hover {
+    cursor: crosshair;
+}
+
+.bbuttons {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: fit-content;
+}
+
+.bbutton {
+    background-color: rgb(226, 226, 226);
+    border-radius: 15px;
+    border: black solid 1px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bbutton:hover {
+    background-color: rgb(151, 151, 151);
+    cursor: pointer;
+}
